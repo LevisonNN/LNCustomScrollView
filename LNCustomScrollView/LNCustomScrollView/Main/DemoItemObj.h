@@ -16,7 +16,8 @@ typedef NS_ENUM(NSInteger, DemoType)
     DemoTypeBouncesObservation,
     DemoTypePanGestureObservation,
     DemoTypeOptimization,
-    DemoTypeCustomScrollView
+    DemoTypeCustomScrollView,
+    DemoTypeMomentumTransmit,
 };
 
 @interface DemoItemObj : NSObject

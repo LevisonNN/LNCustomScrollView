@@ -14,6 +14,7 @@
 #import "BouncesOptimizationViewController.h"
 #import "PanGestureObservationViewController.h"
 #import "CustomScrollViewViewController.h"
+#import "MomentumTransmitViewController.h"
 
 @interface MainViewController () <UICollectionViewDelegate, UICollectionViewDataSource>
 
@@ -71,6 +72,11 @@
     customScrollViewObj.type = DemoTypeCustomScrollView;
     customScrollViewObj.title = @"CustomScrollView";
     [demoItemMArr addObject:customScrollViewObj];
+    
+    DemoItemObj *momentumTransmitObj = [[DemoItemObj alloc] init];
+    momentumTransmitObj.type = DemoTypeMomentumTransmit;
+    momentumTransmitObj.title = @"Momentum";
+    [demoItemMArr addObject:momentumTransmitObj];
     
     self.demoItemArr = demoItemMArr.copy;
     
@@ -145,6 +151,10 @@
             CustomScrollViewViewController *vc = [[CustomScrollViewViewController alloc] init];
             [self.navigationController pushViewController:vc animated:YES];
         } break;
+        case DemoTypeMomentumTransmit: {
+            MomentumTransmitViewController *vc = [[MomentumTransmitViewController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
         default: {
             
         } break;

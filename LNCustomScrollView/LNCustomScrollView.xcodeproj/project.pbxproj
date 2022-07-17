@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A598D8042884611A0013A7C1 /* LNRestMomentumDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = A598D7FD2884611A0013A7C1 /* LNRestMomentumDetector.m */; };
+		A598D8052884611A0013A7C1 /* LNVelocityDynamicItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A598D7FE2884611A0013A7C1 /* LNVelocityDynamicItem.m */; };
+		A598D8062884611A0013A7C1 /* LNMomentumImpulser.m in Sources */ = {isa = PBXBuildFile; fileRef = A598D8002884611A0013A7C1 /* LNMomentumImpulser.m */; };
+		A598D8072884611A0013A7C1 /* LNMomentumObj.m in Sources */ = {isa = PBXBuildFile; fileRef = A598D8012884611A0013A7C1 /* LNMomentumObj.m */; };
+		A598D80D288461320013A7C1 /* MomentumTransmitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A598D80C288461320013A7C1 /* MomentumTransmitViewController.m */; };
 		A59CF881261ABFEB00905EF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A59CF880261ABFEB00905EF3 /* AppDelegate.m */; };
 		A59CF88A261ABFEB00905EF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A59CF888261ABFEB00905EF3 /* Main.storyboard */; };
 		A59CF88C261ABFEC00905EF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A59CF88B261ABFEC00905EF3 /* Assets.xcassets */; };
@@ -48,6 +53,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A598D7FC2884611A0013A7C1 /* LNVelocityDynamicItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNVelocityDynamicItem.h; sourceTree = "<group>"; };
+		A598D7FD2884611A0013A7C1 /* LNRestMomentumDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNRestMomentumDetector.m; sourceTree = "<group>"; };
+		A598D7FE2884611A0013A7C1 /* LNVelocityDynamicItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNVelocityDynamicItem.m; sourceTree = "<group>"; };
+		A598D7FF2884611A0013A7C1 /* LNRestMomentumDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNRestMomentumDetector.h; sourceTree = "<group>"; };
+		A598D8002884611A0013A7C1 /* LNMomentumImpulser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNMomentumImpulser.m; sourceTree = "<group>"; };
+		A598D8012884611A0013A7C1 /* LNMomentumObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNMomentumObj.m; sourceTree = "<group>"; };
+		A598D8022884611A0013A7C1 /* LNMomentumImpulser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNMomentumImpulser.h; sourceTree = "<group>"; };
+		A598D8032884611A0013A7C1 /* LNMomentumObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNMomentumObj.h; sourceTree = "<group>"; };
+		A598D80B288461320013A7C1 /* MomentumTransmitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MomentumTransmitViewController.h; sourceTree = "<group>"; };
+		A598D80C288461320013A7C1 /* MomentumTransmitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MomentumTransmitViewController.m; sourceTree = "<group>"; };
 		A59CF87C261ABFEB00905EF3 /* LNCustomScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LNCustomScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A59CF87F261ABFEB00905EF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A59CF880261ABFEB00905EF3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -117,6 +132,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A598D7FB288460FC0013A7C1 /* Momentum */ = {
+			isa = PBXGroup;
+			children = (
+				A598D8022884611A0013A7C1 /* LNMomentumImpulser.h */,
+				A598D8002884611A0013A7C1 /* LNMomentumImpulser.m */,
+				A598D8032884611A0013A7C1 /* LNMomentumObj.h */,
+				A598D8012884611A0013A7C1 /* LNMomentumObj.m */,
+				A598D7FF2884611A0013A7C1 /* LNRestMomentumDetector.h */,
+				A598D7FD2884611A0013A7C1 /* LNRestMomentumDetector.m */,
+				A598D7FC2884611A0013A7C1 /* LNVelocityDynamicItem.h */,
+				A598D7FE2884611A0013A7C1 /* LNVelocityDynamicItem.m */,
+			);
+			path = Momentum;
+			sourceTree = "<group>";
+		};
 		A59CF873261ABFEB00905EF3 = {
 			isa = PBXGroup;
 			children = (
@@ -188,6 +218,7 @@
 		A59CF8BE261AC16A00905EF3 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				A598D7FB288460FC0013A7C1 /* Momentum */,
 				A59CF8F4261AC86000905EF3 /* CommonCell */,
 				A59CF8EA261AC70400905EF3 /* BouncesOptimization */,
 				A59CF8FE261AC99200905EF3 /* DecelerateObservationViewController.h */,
@@ -200,6 +231,8 @@
 				A59CF911261AC9EF00905EF3 /* PanGestureObservationViewController.m */,
 				A59CF916261ACA1000905EF3 /* CustomScrollViewViewController.h */,
 				A59CF917261ACA1000905EF3 /* CustomScrollViewViewController.m */,
+				A598D80B288461320013A7C1 /* MomentumTransmitViewController.h */,
+				A598D80C288461320013A7C1 /* MomentumTransmitViewController.m */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -368,19 +401,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				A59CF8D4261AC25200905EF3 /* LNCustomScrollView.m in Sources */,
+				A598D8052884611A0013A7C1 /* LNVelocityDynamicItem.m in Sources */,
 				A59CF924261ACA6700905EF3 /* DemoItemObj.m in Sources */,
 				A59CF92A261ACA7E00905EF3 /* DemoItemCollectionViewCell.m in Sources */,
 				A59CF918261ACA1000905EF3 /* CustomScrollViewViewController.m in Sources */,
 				A59CF8F7261AC88100905EF3 /* DemoCommonCell.m in Sources */,
+				A598D8042884611A0013A7C1 /* LNRestMomentumDetector.m in Sources */,
 				A59CF881261ABFEB00905EF3 /* AppDelegate.m in Sources */,
 				A59CF906261AC9B900905EF3 /* BouncesObservationViewController.m in Sources */,
+				A598D8072884611A0013A7C1 /* LNMomentumObj.m in Sources */,
 				A59CF8E6261AC44400905EF3 /* BouncesOptimizationTrainer.m in Sources */,
 				A59CF912261AC9EF00905EF3 /* PanGestureObservationViewController.m in Sources */,
 				A59CF90C261AC9D200905EF3 /* BouncesOptimizationViewController.m in Sources */,
 				A59CF8ED261AC81300905EF3 /* BouncesOptimizationDataList.m in Sources */,
 				A59CF8C5261AC21600905EF3 /* LNCustomScrollViewClockProxy.m in Sources */,
+				A598D80D288461320013A7C1 /* MomentumTransmitViewController.m in Sources */,
 				A59CF892261ABFEC00905EF3 /* main.m in Sources */,
 				A59CF91E261ACA5A00905EF3 /* MainViewController.m in Sources */,
+				A598D8062884611A0013A7C1 /* LNMomentumImpulser.m in Sources */,
 				A59CF8CE261AC24200905EF3 /* LNCustomScrollViewClock.m in Sources */,
 				A59CF900261AC99200905EF3 /* DecelerateObservationViewController.m in Sources */,
 			);
